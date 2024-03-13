@@ -15,6 +15,7 @@ body{
     background-color: var(--advice-card-color);
     width: 350px;
     border-radius: 10px;
+    position: relative;
 }
 
 .container .title{
@@ -40,7 +41,7 @@ body{
 
 .container .btn-dice{
     position: absolute;
-    margin-top: 155px;
+    top: 154px;
     padding: 13px;
     border-radius: 50%;
     background-color: var(--advice-dice-color);
